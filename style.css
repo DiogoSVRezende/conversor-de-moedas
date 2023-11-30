@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #fefefe;
+}
+
+.logo {
+    width: 250px;
+    display: block;
+    margin: 18px auto;
+
+
+}
+
+main {
+
+    width: 365px;
+    background-color: #ecebeb;
+    border-radius: 20PX;
+    margin: 0 auto;
+    padding: 44px 24px 33px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+select,
+input {
+    background: #ffffff;
+    border: 1px solid #504e4e;
+    border-radius: 4px;
+    height: 32px;
+    width: 100%;
+    margin-bottom: 18px;
+    appearance: none;
+    padding-left: 10px;
+    font-weight: 650;
+    font-size: 17px;
+    color: #676868;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    background: #575757;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #fff;
+    height: 35px;
+    width: 100%
+}
+
+button:hover {
+
+    opacity: 0.6;
+}
+
+button:active {
+    opacity: 0.4;
+
+}
+
+section {
+    border: 1px solid #575757;
+    border-radius: 20px;
+
+    margin-top: 26px;
+    padding: 12px;
+    align-items: center;
+    flex-direction: column;
+    display: flex
+}
+
+.arrow-img {
+    margin: 20px;
+ 
+
+
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #777777;
+    font-size: 14px;
+
+}
+
+.currency-value,.currency-value-convert{
+    color: #555555;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+

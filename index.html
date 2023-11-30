@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Convert Money</title>
+</head>
+
+<body>
+    <img class="logo" src="Conversao-de-Moeda-Dinheiro1.jpg" alt="logo-$$-convert-money">
+
+    <main>
+        <label>
+            convert <b>de</b>
+            <select>
+                <option>
+                    R$ Real Brasileiro
+                </option>
+            </select>
+
+        </label>
+
+
+        <label>
+            convert <b>para</b>
+            <select class="currency-select">
+                <option value="dolar"> US Dólar Americano</option>
+                <option value="Bitcoin"> BTC Bitcoin</option>
+                <option value="Libra"> £ Libra</option>
+                <option value="Euro">€ Euro </option>
+            </select>
+        </label>
+        <label>
+            <input class=" input-currency" placeholder=" 100.000.000">
+
+            <button class="button-convert">converter</button>
+        </label>
+        <section>
+            <div class="currency-box">
+                <img src="./assets/Real.png" alt="logo-moeda-a-converter">
+                <p class="currency">Real</p>
+                <p class="currency-value-convert">R$ 0,00</p>
+            </div>
+            <img class="arrow-img" src="./assets/Flecha.png" alt="seta">
+
+            <div class="currency-box">
+                <img class="tela" src="./assets/Dolar.png" alt="logo-moeda">
+                <p class="currency" id="currency-name">Dolar</p>
+                <p class="currency-value">US$ 0.00</p>
+            </div>
+
+
+        </section>
+    </main>
+    <script src="./arquivo.js"></script>
+</body>
+
+</html>
