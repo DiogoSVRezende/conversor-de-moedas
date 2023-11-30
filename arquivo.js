@@ -56,7 +56,7 @@ function changecurency() {
     const tela = document.querySelector(".tela")
 
 
-    if (convertSelect.value == "Dolar") {
+    if (convertSelect.value == "dolar") {
         currencyName.innerHTML = "Dólar americano"
         tela.src = "assets/Dolar.png"
     }
